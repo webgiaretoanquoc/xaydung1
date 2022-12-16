@@ -1,0 +1,175 @@
+/*
+Theme Name: Flatsome Child
+Description: NamKiem developed for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.11.3
+*/
+
+
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+
+
+.section-du-an .col{
+	padding: 10px !important
+}
+.section-lap-dat .col,.section-tin-tuc .col{
+	padding-bottom: 10px !important; 
+}
+.post-sidebar{
+	padding: 0px 10px !important;
+}
+
+.is-divider{
+	display: none
+}
+.row-doi-tac .box-text {
+	display: none
+}
+.gallery-col{
+	padding-bottom: 0px;
+}
+.section-shadow .row-shadow{
+	padding-top: 10px;
+	box-shadow: 1px 1px 4px 0px #999;
+}
+.flex-right ul li{
+	padding: 0px 10px !important;
+
+}
+.flex-right ul li a{
+	text-transform: initial !important;
+	font-size: 16px;
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+	background-color: currentColor !important;
+	border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+	color: #fff;
+	background-color: #446084;
+	border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+	background : #2478ba !important;
+	border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+	color: #fff;
+	background-color: black !important;
+	border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+	color: #fff !important;
+	background-color: #cb2320  !important;
+	border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+	color: #fff !important;
+	background-color: #dd4e31 !important;
+	border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+	color: #fff !important;
+	background-color: #0072b7 !important;
+	border-color: #0072b7     !important;
+}
+
+.single-date{
+	border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+	font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+	border-top: none !important;
+	border-bottom: 1px dashed #ececec !important;
+
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+	background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+	height: 12px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin: -8px 20px 0 0;
+}
+
+div.div-widget {
+	border-bottom: 2px solid #3498db;
+	margin-bottom: 40px;
+	display: block;
+}
+
+div.div-widget h3.widget-title {
+	margin: 0;
+	font-size: 16px;
+	line-height: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+div.div-widget h3.widget-title :after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-top: 40px solid transparent;
+	border-left: 20px solid #3498db;
+	border-bottom: 0px solid transparent;
+	border-right: 0 solid transparent;
+	position: absolute;
+	top: 0px;
+	right: -20px;
+}
+
+div.div-widget h3.widget-title  span {
+	background: #3498db;
+	padding: 10px 20px 8px 20px;
+	color: white;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+}
+.section-ve-chung-toi p{
+	margin-bottom: 5px !important
+}
+.section-ve-chung-toi .p-about{
+	font-size: 14px !important;
+	text-align: justify;
+}
+b, strong {
+	font-weight: bold !important;
+}
+.footer-2 .widget{
+	padding-top: 10px;
+	border-top: 1px solid gray;
+}
+
+@media only screen and (max-width: 48em) {
+	/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+}
+@media screen and (min-width: 850px){
+	.row-divided>.col+.col:not(.large-12) {
+		border-left: none !important;
+	}
+}
